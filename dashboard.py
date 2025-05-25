@@ -45,7 +45,7 @@ if st.button("Predict Launch Success"):
         'launchpad_5e9e4502f509094188566f88': launchpad_2,
         'launchpad_5e9e4502f5090995de566f86': launchpad_3,
         'name_encoded': name_encoded
-    }])
+     }])
 
     # Make prediction
     prediction = logreg.predict(input_data)[0]
